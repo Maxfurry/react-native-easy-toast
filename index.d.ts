@@ -9,6 +9,7 @@ interface ToastViewProps {
   fadeInDuration?: number;
   fadeOutDuration?: number;
   opacity?: number;
+  useNativeAnimation?:number;
 }
 
 interface DURATION {
